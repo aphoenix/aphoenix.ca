@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p class="crumbs">
+  &raquo;&nbsp;
+  <a href="/">home</a>
+  &raquo;&nbsp;
+  <a href="/blog">blog</a>
+  &raquo;&nbsp;
+  {{ page.slug }}
+</p>
+<h1 class="title">
+  {{ page.title }}
+</h1>
+<div class="meta">
+  Posted <strong>{{ page.date }}</strong></em>
+</div>
+
+{{ page.content | safe }}
+
+{% endblock content %}
