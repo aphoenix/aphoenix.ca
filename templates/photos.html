@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="crumbs">
+  &raquo;&nbsp;
+  <a href="/">home</a>
+  &raquo;&nbsp;
+  <h2>photos</h2>
+</section>
+
+{% for page in paginator.pages %}
+<article class="photo">
+
+  <a href="{{page.permalink | safe}}">
+    {% if page.extra.photo %}
+    <img src="{{page.extra.photo}}" alt="{{page.title}}"/>
+    {% else %}
+    {{page.title}}
+    {% endif %}
+  </a>
+
+
+</article>
+
+{% endfor %}
+<section class="pagination">
+  <div class="newer">
+    {% if paginator.previous %}
+    <a href="{{ paginator.previous }}">← newer</a>
+    {% else %}
+    <span>no newer</span>
+    {% endif %}
+  </div>
+  <div class="older">
+    {% if paginator.next %}
+    <a href="{{ paginator.next }}">older →</i></a>
+    {% else %}
+    <span>no older</span>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock content %}

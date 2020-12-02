@@ -1,0 +1,26 @@
+{% macro blogbit(page) %}
+<article class="blog">
+    <h3><a href="{{page.permalink | safe }}">{{page.title}}</a></h3>
+    <span>•</span>
+    {% if page.summary %}
+    {{ page.summary | safe }}
+    {% else %}
+    {{ page.content | truncate(length=450) | safe }}
+    {% endif %}
+    <p class="more">
+        <a href="{{page.permalink | safe}}">read →</a>
+    </p>
+</article>
+{% endmacro blogbit %}
+
+{% macro photobit(page) %}
+<article class="photo">
+    <a href="{{page.permalink | safe}}">
+        {% if page.extra.photo %}
+        <img src="{{page.extra.photo}}" alt="{{page.title}}"/>
+        {% else %}
+        {{page.title}}
+        {% endif %}
+    </a>
+</article>
+{%endmacro photobit %}

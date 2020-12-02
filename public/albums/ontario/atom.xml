@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - ontario</title>
+	<link href="https://aphoenix.ca/albums/ontario/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://aphoenix.ca"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2007-08-30T00:00:00+00:00</updated>
+	<id>https://aphoenix.ca/albums/ontario/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Niagara Falls Skyline</title>
+		<published>2007-08-30T00:00:00+00:00</published>
+		<updated>2007-08-30T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/niagara-falls-skyline/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/niagara-falls-skyline/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;NiagaraFallsSkyline.jpg&quot; alt=&quot;looking straight back from the Niagara Falls at the city&#x27;s skyline&quot; title=&quot;Some manmade things are quite pretty.  Like Pamela Anderson, for instance.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is one of my favourite skyline pics that I&#x27;ve taken, though I&#x27;m usually a big fan of Toronto at night. There&#x27;s something about the colours, and the &lt;em&gt;closeness&lt;&#x2F;em&gt; of everything here that just worked for me.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Evening Crowd At The Falls - Part 2</title>
+		<published>2007-08-29T00:00:00+00:00</published>
+		<updated>2007-08-29T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/evening-crowd-at-the-falls-2/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/evening-crowd-at-the-falls-2/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;EveningCrowdAtTheFallsTwo.jpg&quot; alt=&quot;A crowd gathers to watch the sunset at Niagara Falls&quot; title=&quot;Because if you do, you&#x27;ll be even cooler than before.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I managed to get to Niagara Falls this past weekend and get some decent pictures, but amongst my favourites were the ones of the crowds. Here&#x27;s two:&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Evening Crowd At The Falls - Part 1</title>
+		<published>2007-08-28T00:00:00+00:00</published>
+		<updated>2007-08-28T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/evening-crowd-at-the-falls-1/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/evening-crowd-at-the-falls-1/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;EveningCrowdAtTheFallsOne.jpg&quot; alt=&quot;A crowd gathers to watch the sunset at Niagara Falls&quot; title=&quot;You should try to get hover text to appear over both pictures at once.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I managed to get to Niagara Falls this past weekend and get some decent pictures, but amongst my favourites were the ones of the crowds. Here&#x27;s two:&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>The View From Home</title>
+		<published>2007-07-24T00:00:00+00:00</published>
+		<updated>2007-07-24T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/the-view-from-home/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/the-view-from-home/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;TheViewFromHome.jpg&quot; alt=&quot;A view of a street in Guelph, with a girl riding a bicycle.&quot; title=&quot;Zoooooooooomed right in.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t know why I like this photo so much - I think it&#x27;s because of how &lt;em&gt;normal&lt;&#x2F;em&gt; it feels. Just another shot of suburbia.&lt;&#x2F;p&gt;
+&lt;p&gt;I had to post this one sooner rather than later because of the whole &amp;quot;moving into a new house&amp;quot; thing.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Post-Industrialization</title>
+		<published>2007-07-17T00:00:00+00:00</published>
+		<updated>2007-07-17T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/post-industrialization/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/post-industrialization/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;PostIndustrialization.jpg&quot; alt=&quot;Smokestacks and clouds&quot; title=&quot;Imaging how much pollution a non-educational facility puts out!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;At the university, very early in the morning, looking east onto a red sunrise, the clouds were lit as if they were over a huge fire.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

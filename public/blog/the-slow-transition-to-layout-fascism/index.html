@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title></title>
+    <link rel="stylesheet" href="https:&#x2F;&#x2F;aphoenix.ca&#x2F;print.css" media="print">
+    <link rel="stylesheet" href="https:&#x2F;&#x2F;aphoenix.ca&#x2F;aphoenix.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qgy1lpu.css">
+
+    
+    
+</head>
+<body class="body ">
+<header id="header">
+    <nav class="links">
+        <ul>
+            <li class="site-id">
+                <a href="https:&#x2F;&#x2F;aphoenix.ca">
+                    A. Phoenix
+                </a>
+            </li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/photos/">Photos</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="content">
+    
+<section class="crumbs">
+  &raquo;&nbsp;
+  <a href="/">home</a>
+  &raquo;&nbsp;
+  <a href="/blog">blog</a>
+  &raquo;&nbsp;
+  the-slow-transition-to-layout-fascism
+</section>
+<h1 class="title">
+  The Slow Transition to Layout Fascism
+</h1>
+<div class="meta">
+  Posted <strong>2007-08-08</strong></em>
+  <span class="tags">
+    Tags:
+    
+    None
+    
+  </span>
+</div>
+
+<p>One of the things that I always find important when designing a website is to get rid of as many of the browser specific presets that each browser has as a default style. Think of the page as a whole as a nation and the tags as the individuals - we really should put the layout of the page <em>as a whole</em> above layout of <em>individuals</em>. And think of yourself as a little tinpot dictator that has complete and utter control over each and every aspect, except if a client tells you to change something.</p>
+<p>To tell the truth, I'm finding it hard to stay with this &quot;fascism&quot; analogy. But I think I've made my point.</p>
+<p>You can quash all dissension by resetting all those settings that tend to change browser to browser. It really helps keep things uniform between Firefox and (shudder)IE, or Opera and Konqueror. But what does it do? How does it affect your coding?</p>
+<p>First up is the padding / margin bomb. One of the things that is almost always difficult to deal with is the default space in and around objects in different browsers. So I would recommend just getting rid of that space:</p>
+<p>* {
+padding:0;
+margin:0;
+}</p>
+<p>Now there are some things that you will have to take into account. Nothing has a default padding or margin anymore. Absolutely nothing. So you'll have to give some things margins and padding according to how you want them to look. There are a few major players to think about.</p>
+<ul>
+<li><p>
+</li>
+<li><ul> or <ol>
+</li>
+<li>&lt;h[n]&gt;</li>
+</ul>
+<p>There are others, but these are the ones that will almost <em>always</em> give you a problem if there's no padding or margin. So how to take care of it?</p>
+<p>p, ul, ol, h1, h2, h3, h4, h5, h6, pre, label, fieldset {
+margin:1em;
+}</p>
+<p>And if you want to get fancy, add this in too:</p>
+<p>blockquote {
+margin-top: 1em;
+margin-bottom:1em;
+margin-left:2.5em;
+margin-right:2.5em;
+}</p>
+<p>This sets all those most frequently used items to have a standard, fluid margin. Heck, you can leave just this as your website and it wouldn't be terrible as long as your page was well structured and you added a colour and a background colour.</p>
+<p>But what does this gain you? Well, developers, it gains you control. If you've ever done anything with a style sheet, you'll know that nailing down those little bugs that exist browser-to-browser can really monopolize your time. This gives you a place to start from that, for the most part, evens out the playing field for the browsers. A little bit of work up front, and you save yourself hours of headache in the end.</p>
+<p>And you'll have taken your first step on the road to become a Layout Fascist.</p>
+
+
+
+<section class="pagination">
+  <div class="newer">
+    
+    <a href="https:&#x2F;&#x2F;aphoenix.ca&#x2F;blog&#x2F;home-ownership&#x2F;">← newer</a>
+    
+  </div>
+  <div class="older">
+    
+    <a href="https:&#x2F;&#x2F;aphoenix.ca&#x2F;blog&#x2F;lets-talk-about-porn&#x2F;">older →</a>
+    
+  </div>
+
+</section>
+
+
+
+</div>
+<footer id="footer">
+    <p>&copy; 2002-2020 Andrew Phoenix</p>
+</footer>
+
+</body>
+
+</html>

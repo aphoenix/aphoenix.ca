@@ -2,7 +2,7 @@
 title = "5✭ Fridays - Franz Liszt"
 date = 2007-02-16
 [taxonomies]
-tags = ["music", "5✭"]
+tags = ["music", "romantic era", "5✭"]
 +++
 
 These unplanned 5✭ Fridays are really entertaining for me - it's fun trying to pull an unplanned and slightly unhinged 
@@ -14,6 +14,8 @@ symbol. He gave autographs; he performed in front of thousands at a time; he sle
 (and is probably most renowned for his work as such) and was, quite possibly, the best pianist there has ever been. Many
 of his compositions reflect this - one must be a very skilled technical player to even attempt to play most Liszt
 pieces, and to play them well, one must be intensely passionate.
+
+<!-- more -->
 
 Huge hands help, too.
 

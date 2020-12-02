@@ -1,21 +1,53 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p class="crumbs">
+<section class="crumbs">
   &raquo;&nbsp;
   <a href="/">home</a>
   &raquo;&nbsp;
   <a href="/blog">blog</a>
   &raquo;&nbsp;
   {{ page.slug }}
-</p>
+</section>
 <h1 class="title">
   {{ page.title }}
 </h1>
 <div class="meta">
   Posted <strong>{{ page.date }}</strong></em>
+  <span class="tags">
+    Tags:
+    {% if page.taxonomies.tags %}
+      {% for tag in page.taxonomies.tags %}
+      <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>
+      <span class="separator">,&nbsp;</span>
+      {% endfor %}
+    </ul>
+    {% else %}
+    None
+    {% endif %}
+  </span>
 </div>
 
 {{ page.content | safe }}
+
+
+<section class="pagination">
+  <div class="newer">
+    {% if page.later %}
+    <a href="{{ page.later.permalink }}">← newer</a>
+    {% else %}
+    <span>no newer</span>
+    {% endif %}
+  </div>
+  <div class="older">
+    {% if page.earlier %}
+    <a href="{{ page.earlier.permalink }}">older →</a>
+    {% else %}
+    <span>no older</span>
+    {% endif %}
+  </div>
+
+</section>
+
 
 {% endblock content %}

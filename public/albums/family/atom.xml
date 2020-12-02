@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - family</title>
+	<link href="https://aphoenix.ca/albums/family/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://aphoenix.ca"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2007-11-30T00:00:00+00:00</updated>
+	<id>https://aphoenix.ca/albums/family/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Deep Thoughts</title>
+		<published>2007-11-30T00:00:00+00:00</published>
+		<updated>2007-11-30T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/deep-thoughts/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/deep-thoughts/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;DeepThoughts.jpg&quot; alt=&quot;My brother-in-law in deep thought.&quot; title=&quot;If you ever drop your keys into a river of molten lava, let &#x27;em go, because, man, they&#x27;re gone.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To me, clowns aren&#x27;t funny. In fact, they&#x27;re kind of scary. I&#x27;ve wondered where this started and I think it goes back to the time I went to the circus, and a clown killed my dad.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>My Little Brother</title>
+		<published>2007-06-28T00:00:00+00:00</published>
+		<updated>2007-06-28T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/my-little-brother/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/my-little-brother/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;MyLittleBrother.jpg&quot; alt=&quot;My younger brother, who is, at 6&#x27;3 not Little at all&quot; title=&quot;My younger brother, who is, at 6&#x27;3 not Little at all.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A black and white candid of my younger brother, who is not really little anymore.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

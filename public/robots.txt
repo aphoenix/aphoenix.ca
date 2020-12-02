@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://aphoenix.ca/sitemap.xml

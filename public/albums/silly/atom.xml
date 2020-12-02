@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - silly</title>
+	<link href="https://aphoenix.ca/albums/silly/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://aphoenix.ca"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2007-07-09T00:00:00+00:00</updated>
+	<id>https://aphoenix.ca/albums/silly/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Mermaid</title>
+		<published>2007-07-09T00:00:00+00:00</published>
+		<updated>2007-07-09T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/mermaid/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/mermaid/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;Mermaid.jpg&quot; alt=&quot;Blonde in repose.&quot; title=&quot;blonde in repose&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is actually taken at a wedding - &#x27;tis a friend of mine who threw a pose just for fun.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

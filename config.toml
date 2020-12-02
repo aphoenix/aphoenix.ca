@@ -13,9 +13,11 @@ build_search_index = true
 
 taxonomies = [
     # for blog posts
-    {name = "b-tags", feed = true},
-    {name = "p-tags", feed = true},
-    {name = "g-tags", feed = true}
+    {name = "tags", feed = true},
+    # photo album
+    {name = "albums", feed = true},
+    # for gear
+    {name = "drawers", feed = true}
 ]
 
 [extra]

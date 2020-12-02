@@ -14,8 +14,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size:100%;
-    font: inherit;
     vertical-align: baseline;
 }
 article, aside, details, figcaption, figure,
@@ -24,89 +22,79 @@ footer, header, hgroup, menu, nav, section {
 }
 html{font-size:16px;}
 body {
-    line-height: 1.3;
+    line-height: 1.5;
     font-family:usual, sans-serif;
     font-weight:300;
-}
-ol, ul {
-    list-style: none;
 }
 blockquote, q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-/* End of Reset */
 
 /* Colours*/
 :root {
     --body-grad:radial-gradient(#321625,#1a1317);
-    --body-bg:#ffe;
-    --body:#ffffff;
-    --faded:#dedede;
+    --photo-hover:#ffe;
+    --body:#ffffffee;
+    --half-fade:#ffffff99;
+    --full-fade:#ffffff11;
     --content-bg:#00000022;
-    --footer-bg:#ffffff0f;
-    --reverse:#abc;
     --logo:#cc5aa5;
     --link:#45C6CC;
     --link-hover:#88D1D5;
-    --link-visited:#A050CC;
-    --accent-bg:#999;
-    --accent:#922;
+    --link-visited:#AA55D9;
+    --accent:#CC6F64;
     --code-bg:#111;
     --code:#dfd;
 }
 body {
-    background:var(--body-bg);
     background:var(--body-grad);
 }
 /* End of Colours */
 
 h1, h2, h3, p, ul, ol {
-    margin:0.25em 0 0.75em;
     color:var(--body);
 }
 pre {
-    margin:0.25em 0 0.75em;
+    margin:0.5em 0;
 }
 h1,h2,h3 {
-    font-family:roboto-slab, serif;
-    font-weight:700;
+    font-family:gastromond, serif;
+    font-weight:400;
+    margin:0.5em 0;
 }
-h1 {font-size:2em;}
-h2 {font-size:1.6em;}
-h3 {font-size:1.3em;}
-p {line-height:1.3;}
+p, ul, ol {
+    margin:1em 0;
+}
+h1 {font-size:1.4em;}
+h2 {font-size:1.2em;}
+h3 {font-size:1.1em;}
 p strong {font-weight:600;}
 p em {font-style:italic;font-weight:400;}
+p i {font-style:italic;}
 a {color:var(--link);}
-a:hover{color:var(--link-hover);}
+p b {font-weight:600;}
+a {text-decoration:none;}
 a:visited{color:var(--link-visited);}
+a:hover{color:var(--link-hover);
+    text-decoration:underline;
+    text-decoration-color:var(--half-fade);
+}
 ul, ol {margin-left:2em;}
 ul {list-style-type:disc;}
 ol {list-style-type:lower-roman;}
 .site-id a, .site-id a:visited, .site-id a:active {
     color:var(--logo);
     text-shadow:0.01em 0.01em 0.04em var(--accent);
-    font-size:5em;
+    font-size:3em;
     font-family:timberline, cursive;
     text-decoration:none;
 }
 .site-id a:hover {
     text-shadow:0.01em 0.01em 0.18em var(--accent);
 }
-.site-id {text-align:center;}
 nav {
-    background:var(--footer-bg);
     text-align:center;
-    padding:1rem 0;
+    padding:0;
     margin:1rem 0;
 }
 nav ul {
@@ -120,13 +108,22 @@ nav ul li {
 nav ul li a, nav ul li a:visited {
     color:var(--link);
     text-decoration:none;
-    font-family:roboto-slab, sans-serif;
-    padding:0 1em;
+    font-family:gastromond, sans-serif;
+    padding:1rem;
+    display:inline-block;
 }
 nav ul li a:hover {color:var(--link-hover);}
 .crumbs a, .crumbs a.visited {
     color:var(--link);
     text-decoration:none;
+}
+.crumbs {
+    color:var(--body);
+    margin-bottom:1rem;
+}
+.crumbs h2 {
+    display:inline;
+    font-size:1rem;
 }
 blockquote {
     display: block;
@@ -134,8 +131,9 @@ blockquote {
     border-style: solid;
     border-color:var(--accent);
     padding: 1.5em 2em 0.5em ;
-    margin: 1.5em 4em;
+    margin: 1.5em 2em;
     position: relative;
+    background:var(--full-fade);
 }
 blockquote:before {
     content: '\201C';
@@ -147,38 +145,135 @@ blockquote:before {
     height: 2rem;
     font-family: gastromond, serif;
     font-size: 2em;
-    color:var(--light);
+    color:var(--half-fade);
     text-align: center;
 }
 blockquote:after {
-    content: "\2013 \2003" attr(cite);
-    display: block;
-    text-align: right;
-    font-size: 0.875em;
-    color:var(--accent-2);
+    content:"\2013 \2003" attr(cite);
+    display:block;
+    text-align:right;
+    font-size:0.875em;
+    color:var(--accent);
 }
 .content {
-    width: 80vw;
-    margin: 0 auto 2rem;
-    max-width: 60rem;
-    background: var(--content-bg);
-    padding: 1rem 4rem;
+    width:90vw;
+    margin:0 auto 2rem;
+    max-width:48rem;
+    background:var(--content-bg);
+    padding:1rem min(5vw, 3rem);
 }
 .meta {
     font-size:0.8em;
-    color:var(--faded);
+    color:var(--half-fade);
+    margin:-1em 0 2em;
 }
-
+.date {
+    display:inline-block;
+    max-width:10em;
+}
 code {font-family:lft-etica-mono, monospace;}
 
 pre {padding:1em 2em;}
+.separator:last-child {display:none;}
 footer {
     text-align:center;
-    background:var(--footer-bg);
+    background:var(--full-fade);
     font-size:0.8em;
     padding:2em;
 }
+.pagination {
+    margin:4em 0 2em;
+    text-align:center;
+}
 .pagination > div {
     display:inline-block;
-    width:40%;
+    background:transparent;
+    padding:0;
+    text-align:center;
+}
+.pagination > div a, .pagination > div a:visited, .pagination > div span {
+    color:var(--body);
+    text-decoration:none;
+    border:0.1em solid var(--body);
+    display:inline-block;
+    padding:1em 2em;
+    width:6em;
+}
+.pagination > div span {
+    cursor:default;
+    color:var(--half-fade);
+    border-color:var(--half-fade);
+}
+.pagination > div a:hover {
+    background:var(--body);
+    color:var(--accent);
+}
+.pagination .previous {float:left;}
+.pagination .next {float:right;}
+.pagination:after {
+    display:block;
+    content:' ';
+    clear:both;
+}
+.blog h3, .blog h3 + span, .blog h3 + span + p {
+    display:inline;
+}
+.blog h3 + span {
+    padding:0 0.5rem;
+}
+.blog {
+    padding: 0 0 2em;
+    border-bottom:0.1em solid var(--accent);
+    margin:0 0 2em;
+}
+.blog:last-child {
+    border-bottom:0;
+}
+.blog span {color:var(--accent);}
+
+.more {
+    text-align:right;
+}
+
+@media screen and (max-width:30em) {
+.pagination > div a, .pagination > div a:visited, .pagination > div span {
+    width: 72vw;
+    margin:1em 0;
+}
+}
+
+.welcome img {
+    float:left;
+    width:10em;
+    padding:0 3em 3em 0;
+}
+.welcome:after {
+    content: ' ';
+    display:block;
+    clear:both;
+}
+
+.photo img {
+    width: 20em;
+    height: 14em;
+    object-fit: cover;
+}
+.photo a {opacity:0.85;margin: 1em 3em 1em 0; display:inline-block;}
+.photo a:hover img {opacity:1;box-shadow:0 0 0.75em var(--photo-hover);}
+.photo {display:inline-block;}
+img {
+    max-width:90vw;
+    height:auto;
+}
+
+.blogs {
+    display:inline-block;
+    width:24em;
+    margin-right:3em;
+    vertical-align:top;
+}
+.photos {
+    display:inline-block;
+    width:20em;
+    Vertical-align:top;
 }

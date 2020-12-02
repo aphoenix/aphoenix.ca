@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block content %}
+<section class="post">
+    <h2>Posts tagged with {{ term.name }}</h2>
+    {% for page in term.pages %}
+    <article>
+        <p>
+            <span class="date">
+                <time datetime="{{ page.date }}">{{ page.date | date(format="%B %e, %Y") }}</time>
+            </span>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </p>
+    </article>
+    {% endfor %}
+
+</section>
+{% endblock content %}

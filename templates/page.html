@@ -3,8 +3,13 @@
 This is page.html
 
 {% block content %}
+<section class="crumbs">
+    &raquo;&nbsp;
+    <a href="/">home</a>
+    &raquo;&nbsp;
+    <h2>{{ page.slug }}</h2>
+</section>
 <div class="page">
-    <h1 class="post-title">{{ page.title }}</h1>
     {{ page.content | safe }}
 </div>
 {% endblock content %}

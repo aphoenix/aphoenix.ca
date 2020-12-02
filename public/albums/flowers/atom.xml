@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - flowers</title>
+	<link href="https://aphoenix.ca/albums/flowers/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://aphoenix.ca"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2007-08-15T00:00:00+00:00</updated>
+	<id>https://aphoenix.ca/albums/flowers/atom.xml</id>
+	<entry xml:lang="en">
+		<title>More Unidentified Flowers</title>
+		<published>2007-08-15T00:00:00+00:00</published>
+		<updated>2007-08-15T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/more-unidentified-flowers/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/more-unidentified-flowers/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;MoreUnidentifiedFlowers.jpg&quot; alt=&quot;A red and yellow flower closeup.&quot; title=&quot;I believe this is a Common North American Strungus Plant.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Yet another beautiful but not identifiable-by-me flower.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>First Shot</title>
+		<published>2007-07-19T00:00:00+00:00</published>
+		<updated>2007-07-19T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/first-shot/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/first-shot/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;FirstShot.jpg&quot; alt=&quot;A Tulip, I believe.&quot; title=&quot;First photo taken with my DSLR&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is the first photo I ever took with my Canon Digital Rebel XTi. I think it&#x27;s a tulip and it is from my backyard.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>White Flowers</title>
+		<published>2007-07-12T00:00:00+00:00</published>
+		<updated>2007-07-12T00:00:00+00:00</updated>
+		<link href="https://aphoenix.ca/photos/white-flowers/" type="text/html"/>
+		<id>https://aphoenix.ca/photos/white-flowers/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;photos&#x2F;2007&#x2F;WhiteFlowers.jpg&quot; alt=&quot;Some pretty white flowers.&quot; title=&quot;I believe this particular breed is the rare Whitemensa Polaris.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t really know much about flowers other than, &amp;quot;Hey, pretty.&amp;quot; I wish I could tell you what this is... any takers?&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

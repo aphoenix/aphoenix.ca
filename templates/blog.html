@@ -1,35 +1,31 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
-<p class="crumbs">
+<section class="crumbs">
   &raquo;&nbsp;
   <a href="/">home</a>
   &raquo;&nbsp;
-  <a href="/blog">blog</a>
-</p>
+  <h2>blog</h2>
+</section>
 
-<h1>{{ section.title }}</h1>
 {% for page in paginator.pages %}
-<article>
-  <h2>{{page.title}}</h2>
-  {{ page.summary | safe }}
-  <a href="{{ page.permalink | safe}}">read more</a>
-</article>
-
+{{ macros::blogbit(page=page) }}
 {% endfor %}
+
 <section class="pagination">
-  <div class="previous">
+  <div class="newer">
     {% if paginator.previous %}
-    <a href="{{ paginator.previous }}" class="button big"><i class="fao fa-chevron-double-left"></i> Newer Posts</a>
+    <a href="{{ paginator.previous }}">← newer</a>
     {% else %}
-    <a href="#" class="disabled button big">Latest Posts</a>
+    <span>no newer</span>
     {% endif %}
   </div>
-  <div class="next">
+  <div class="older">
     {% if paginator.next %}
-    <a href="{{ paginator.next }}" class="button big">Older Posts <i class="fao fa-chevron-double-right"></i></a>
+    <a href="{{ paginator.next }}">older →</i></a>
     {% else %}
-    <a href="#" class="disabled button big">Oldest Posts</a>
+    <span>no older</span>&
     {% endif %}
   </div>
 </section>

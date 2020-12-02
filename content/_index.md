@@ -1,10 +1,16 @@
 +++
 title = "Aphoenix.ca"
 description = "Andrew Phoenix is me and Aphoenix.ca is my website"
-template = "index.html"
+paginate_by = 3
+template = "home.html"
 path = "/"
 +++
 
-# Welcome to Aphoenix.ca
+# A brief introduction
 
-Lorem ipsum etc.
+I'm **Andrew Phoenix** - father of three, husband of one, coder, cook, musician, small business owner, game enthusiast. 
+These are my musings, photos, and other digital chattels.
+ 
+Most of the writing here is from 2012 and earlier. I'm hoping to change that.  
+The retro 80s colour scheme is on purpose.
+
