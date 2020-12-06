@@ -223,7 +223,7 @@ footer {
     padding:0 0.5rem;
 }
 .blog {
-    padding: 0 0 2em;
+    padding: 0;
     border-bottom:0.1em solid var(--accent);
     margin:0 0 2em;
 }
@@ -254,12 +254,20 @@ footer {
     clear:both;
 }
 
+
 .photo img {
-    width: 20em;
-    height: 14em;
+    width: 22em;
+    height: 15em;
     object-fit: cover;
 }
-.photo a {opacity:0.85;margin: 1em 3em 1em 0; display:inline-block;}
+.photo:nth-child(2n-1) a {
+    margin: 1em 0 1em 1em;
+}
+.photo a {
+    opacity: 0.85;
+    margin: 1em 2em 1em 0;
+    display: inline-block;
+}
 .photo a:hover img {opacity:1;box-shadow:0 0 0.75em var(--photo-hover);}
 .photo {display:inline-block;}
 img {
@@ -267,14 +275,3 @@ img {
     height:auto;
 }
 
-.blogs {
-    display:inline-block;
-    width:24em;
-    margin-right:3em;
-    vertical-align:top;
-}
-.photos {
-    display:inline-block;
-    width:20em;
-    Vertical-align:top;
-}
