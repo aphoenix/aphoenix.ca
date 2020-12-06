@@ -7,6 +7,6 @@ albums = ["water", "point of view"]
 photo = "/photos/2020/InTheLookout.jpg"
 +++
 
-![On the French River](/photos/2020/InTheLookout.jpg)
+![Yaaarrrrrrrrr Matey](/photos/2020/InTheLookout.jpg "Yarr Matey, me first love was the sea")
 
 We rented a cottage which had a delightful lookout - this was the view.
