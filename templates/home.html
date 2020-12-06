@@ -4,14 +4,14 @@
 <div class="blogs">
     <h2>From the blog</h2>
     {% set blog = get_section(path="blog/_index.md") %}
-    {% for page in blog.pages | slice(end=3) %}
+    {% for page in blog.pages | slice(end=2) %}
     {{ macros::blogbit(page=page) }}
     {% endfor %}
 </div>
 <div class="photos">
     <h2>From the camera</h2>
     {% set photos = get_section(path="photos/_index.md") %}
-    {% for page in photos.pages | slice(end=3) %}
+    {% for page in photos.pages | slice(end=2) %}
     {{ macros::photobit(page=page) }}
     {% endfor %}
 </div>
