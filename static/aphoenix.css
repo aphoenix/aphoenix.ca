@@ -270,8 +270,9 @@ footer {
 }
 .photo a:hover img {opacity:1;box-shadow:0 0 0.75em var(--photo-hover);}
 .photo {display:inline-block;}
+
 img {
-    max-width:90vw;
+    max-width:min(90vw, 48em);
     height:auto;
 }
 
