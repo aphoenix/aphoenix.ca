@@ -1,17 +1,7 @@
 {% extends "index.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
-<article class="post">
-    <h2>Photos in {{ term.name }}</h2>
-    <table>
-        <tbody>
-        {% for page in term.pages %}
-        <tr>
-            <td><time datetime="{{ page.date }}">{{ page.date | date(format="%B %e, %Y") }}</time></td>
-            <td><a href="{{ page.permalink }}">{{ page.title }}</a></td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</article>
+<h2>Photo Album: {{ term.name }}</h2>
+{{ macros::single(term=term)}}
 {% endblock content %}

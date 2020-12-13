@@ -23,4 +23,34 @@
         {% endif %}
     </a>
 </article>
-{%endmacro photobit %}
+{% endmacro photobit %}
+
+{% macro single(term) %}
+<section class="results">
+    {% for page in term.pages %}
+    <article>
+        <p>
+            <span class="date">
+                <time datetime="{{ page.date }}">{{ page.date | date(format="%B %e, %Y") }}</time>
+            </span>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </p>
+    </article>
+    {% endfor %}
+</section>
+{ %endmacro single %}
+
+{% macro list(terms, taxonomy) %}
+<article class="post">
+    <ul class="alt columns">
+        {% for term in terms %}
+        <li>
+            <a href=''{{ get_taxonomy_url(kind="{{taxonomy}}}", name=term.name) }}'>
+                {{ term.name }}
+            </a>
+            ({{ term.pages | length }})
+        </li>
+        {% endfor %}
+    </ul>
+</article>
+{% endmacro single %}

@@ -1,16 +1,8 @@
 {% extends "index.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
-<article class="post">
-    <h2>{{ terms | length }} albums in total</h2>
-    <ul class="alt columns">
-        {% for album in terms %}
-        <li>
-            <a href="{{ get_taxonomy_url(kind="albums", name=album.name) }}">
-                {{ album.name }}
-            </a> ({{ album.pages | length }})</li>
-        {% endfor %}
-    </ul>
-</article>
+<h2>{{ terms | length }} albums in total</h2>
+{{ macros::list(terms=terms, taxonomy="albums")}}
 {% endblock content %}
 
