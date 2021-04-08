@@ -1,6 +1,6 @@
 +++
 title = "Hot Sauce - First Batch"
-date = 2020-09-21"
+date = 2021-01-21
 [taxonomies]
 tags = ["hot sauce", "cooking"]
 +++
