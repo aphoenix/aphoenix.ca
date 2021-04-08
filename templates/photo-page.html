@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p class="crumbs">
+<section class="crumbs">
   &raquo;&nbsp;
   <a href="/">home</a>
   &raquo;&nbsp;
   <a href="/photos">photos</a>
   &raquo;&nbsp;
-  {{ page.slug }}
-</p>
+  <span class="current">{{ page.slug }}</span>
+</section>
 <h1 class="title">
   {{ page.title }}
 </h1>
@@ -18,7 +18,7 @@
     Albums:
     {% if page.taxonomies.albums %}
       {% for album in page.taxonomies.albums %}
-      <a href="{{ get_taxonomy_url(kind="albums", name=album) }}">{{ album }}</a>
+      <a href="{{ get_taxonomy_url(kind='albums', name=album) }}">{{ album }}</a>
       <span class="separator">,&nbsp;</span>
       {% endfor %}
     </ul>
