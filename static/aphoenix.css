@@ -64,7 +64,7 @@ blockquote, q {
         --link: #092dea;
         --link-hover: #09cf69;
         --link-visited: #560683;
-        --accent: #ff00f2;
+        --accent: #ff00f2dd;
         --code-bg: #111;
         --code: #dfd;
     }
