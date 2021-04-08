@@ -3,6 +3,7 @@ title = "Uncut Gems"
 date = 2020-02-08
 [extra]
 enjoyment = 1
+acting = 5
 quality = 5
 +++
 
@@ -13,6 +14,3 @@ and I consider the sum of all these fantastic parts... I didn't enjoy the film. 
 enjoyed, but endured.
 
 If you're looking for an experience like that, then it's great. It's not really for me.
-
-Enjoyment: 1/5
-Quality: 5/5
