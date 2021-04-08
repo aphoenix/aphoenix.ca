@@ -38,19 +38,8 @@
     </article>
     {% endfor %}
 </section>
-{ %endmacro single %}
-
-{% macro list(terms, taxonomy) %}
-<article class="post">
-    <ul class="alt columns">
-        {% for term in terms %}
-        <li>
-            <a href=''{{ get_taxonomy_url(kind="{{taxonomy}}}", name=term.name) }}'>
-                {{ term.name }}
-            </a>
-            ({{ term.pages | length }})
-        </li>
-        {% endfor %}
-    </ul>
-</article>
 {% endmacro single %}
+
+{% macro list(taxonomy) %}
+
+{% endmacro list %}
