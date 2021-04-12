@@ -4,7 +4,7 @@ date = 2007-08-30
 [taxonomies]
 albums = ["skylines", "ontario"]
 [extra]
-photo = "/photos/NiagaraFallsSkyline.jpg"
+photo = "../static/photos/NiagaraFallsSkyline.jpg"
 +++
 
 ![looking straight back from the Niagara Falls at the city's skyline](/photos/NiagaraFallsSkyline.jpg "Some manmade things are quite pretty.  Like Pamela Anderson, for instance.")

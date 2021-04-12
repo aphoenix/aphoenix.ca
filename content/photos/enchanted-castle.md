@@ -4,7 +4,7 @@ date = 2019-04-20
 [taxonomies]
 albums = ["disney", "night"]
 [extra]
-photo = "/photos/2019/EnchantedCastle.jpg"
+photo = "../static/photos/2019/EnchantedCastle.jpg"
 +++
 
 ![THE Castle](/photos/2019/EnchantedCastle.jpg "Tale as old time")

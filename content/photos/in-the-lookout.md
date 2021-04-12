@@ -4,7 +4,7 @@ date = 2020-08-10
 [taxonomies]
 albums = ["water", "point of view"]
 [extra]
-photo = "/photos/2020/InTheLookout.jpg"
+photo = "../static/photos/2020/InTheLookout.jpg"
 +++
 
 ![Yaaarrrrrrrrr Matey](/photos/2020/InTheLookout.jpg "Yarr Matey, me first love was the sea")

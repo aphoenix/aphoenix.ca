@@ -4,7 +4,7 @@ date = 2007-08-29
 [taxonomies]
 albums = ["skylines", "ontario"]
 [extra]
-photo = "/photos/EveningCrowdAtTheFallsTwo.jpg"
+photo = "../static/photos/EveningCrowdAtTheFallsTwo.jpg"
 +++
 
 ![A crowd gathers to watch the sunset at Niagara Falls](/photos/EveningCrowdAtTheFallsTwo.jpg "Because if you do, you'll be even cooler than before.")

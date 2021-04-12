@@ -4,7 +4,7 @@ date = 2007-08-28
 [taxonomies]
 albums = ["skylines", "ontario"]
 [extra]
-photo = "/photos/EveningCrowdAtTheFallsOne.jpg"
+photo = "../static/photos/EveningCrowdAtTheFallsOne.jpg"
 +++
 
 ![A crowd gathers to watch the sunset at Niagara Falls](/photos/EveningCrowdAtTheFallsOne.jpg "You should try to get hover text to appear over both pictures at once.")

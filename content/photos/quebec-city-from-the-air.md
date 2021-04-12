@@ -4,7 +4,7 @@ date = 2019-12-09
 [taxonomies]
 albums = ["landscapes", "quebec", "flight"]
 [extra]
-photo = "/photos/2019/QuebecCity.jpg"
+photo = "../static/photos/2019/QuebecCity.jpg"
 +++
 
 ![](/photos/2019/QuebecCity.jpg "Mange du fromage")

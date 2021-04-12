@@ -4,7 +4,7 @@ date = 2007-07-17
 [taxonomies]
 albums = ["ontario", "trying hard"]
 [extra]
-photo = "/photos/2007/PostIndustrialization.jpg"
+photo = "../static/photos/2007/PostIndustrialization.jpg"
 +++
 
 ![Smokestacks and clouds](/photos/2007/PostIndustrialization.jpg "Imaging how much pollution a non-educational facility puts out!")

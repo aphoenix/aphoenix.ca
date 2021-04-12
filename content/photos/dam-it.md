@@ -4,7 +4,7 @@ date = 2019-08-03
 [taxonomies]
 albums = ["water", "dams", "landscapes"]
 [extra]
-photo = "/photos/2019/DamIt.jpg"
+photo = "../static/photos/2019/DamIt.jpg"
 +++
 
 ![Dam It](/photos/2019/DamIt.jpg "Who can resist a gosh dam pun")

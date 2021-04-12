@@ -4,7 +4,7 @@ date = 2006-11-10
 [taxonomies]
 albums = ["light", "clouds", "landscape"]
 [extra]
-photo = "/photos/SunnySkies.jpg"
+photo = "../static/photos/SunnySkies.jpg"
 +++
 
 ![Clouds in the sky](/photos/SunnySkies.jpg "more clouds")

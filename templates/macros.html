@@ -14,10 +14,10 @@
 {% endmacro blogbit %}
 
 {% macro photobit(page) %}
-<article class="photo">
+<article class="photo ">
     <a href="{{page.permalink | safe}}">
         {% if page.extra.photo %}
-        <img src="{{page.extra.photo}}" alt="{{page.title}}"/>
+        <img src="{{ resize_image(path=page.extra.photo, width=352, height=180, op='fit') }}" alt="{{page.title}}"/>
         {% else %}
         {{page.title}}
         {% endif %}
