@@ -199,7 +199,9 @@ blockquote:after {
     display:inline-block;
     max-width:10em;
 }
-code {font-family:lft-etica-mono, monospace;}
+code {
+    font-family:lft-etica-mono, monospace;
+}
 
 pre {padding:1em 2em;}
 .separator:last-child {display:none;}
@@ -246,16 +248,13 @@ footer {
 .blog h3, .blog h3 + span, .blog h3 + span + p {
     display:inline;
 }
-.blog h3 + span {
+.blog .spacer {
     padding:0 0.5rem;
 }
 .blog {
     padding: 0;
     border-bottom:0.1em solid var(--accent);
     margin:0 0 2em;
-}
-.blog:last-child {
-    border-bottom:0;
 }
 .blog span {color:var(--accent);}
 
