@@ -7,6 +7,12 @@ albums = ["water", "dams", "landscape"]
 photo = "../static/photos/2020/BelwoodLake.jpg"
 +++
 
-![Belwood Lake](/photos/2020/BelwoodLake.jpg "Dammed if you do, Dammed if you don't")
+{{ image(
+img="/photos/2020/BelwoodLake.jpg",
+alt="Belwood Lake",
+title="Dammed if you do, Dammed if you don't",
+float="full"
+) }}
+
 
 From a hike around the Belwood Lake Conservation Area - my kids love this spot.

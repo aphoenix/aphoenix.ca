@@ -29,5 +29,6 @@ Sessionx.vim
 *~
 
 public/
+static/processed_images/
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,intellij,webstorm
