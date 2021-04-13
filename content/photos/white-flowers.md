@@ -4,7 +4,7 @@ date = 2007-07-12
 [taxonomies]
 albums = ["flowers"]
 [extra]
-photo = "/photos/2007/WhiteFlowers.jpg"
+photo = "../static/photos/2007/WhiteFlowers.jpg"
 +++
 
 ![Some pretty white flowers.](/photos/2007/WhiteFlowers.jpg "I believe this particular breed is the rare Whitemensa Polaris.")

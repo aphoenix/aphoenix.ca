@@ -4,7 +4,7 @@ date = 2007-06-28
 [taxonomies]
 albums = ["family"]
 [extra]
-photo = "/photos/2007/MyLittleBrother.jpg"
+photo = "../static/photos/2007/MyLittleBrother.jpg"
 +++
 
 ![My younger brother, who is, at 6'3 not Little at all](/photos/2007/MyLittleBrother.jpg "My younger brother, who is, at 6'3 not Little at all.")

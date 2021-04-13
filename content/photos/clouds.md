@@ -4,7 +4,7 @@ date = 2006-11-09
 [taxonomies]
 albums = ["clouds", "bad photos"]
 [extra]
-photo = "/photos/Clouds.jpg"
+photo = "../static/photos/Clouds.jpg"
 +++
 
 ![Clouds.  Not a lot more to it.](/photos/Clouds.jpg "Water particles, held generally together in such a fashion as to make beautiful white fluffiness")

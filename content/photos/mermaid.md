@@ -4,7 +4,7 @@ date = 2007-07-09
 [taxonomies]
 albums = ["portraits", "silly"]
 [extra]
-photo = "/photos/2007/Mermaid.jpg"
+photo = "../static/photos/2007/Mermaid.jpg"
 +++
 
 ![Blonde in repose.](/photos/2007/Mermaid.jpg "blonde in repose")

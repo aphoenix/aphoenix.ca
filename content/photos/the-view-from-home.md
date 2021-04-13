@@ -4,7 +4,7 @@ date = 2007-07-24
 [taxonomies]
 albums = ["suburbia", "ontario"]
 [extra]
-photo = "/photos/2007/TheViewFromHome.jpg"
+photo = "../static/photos/2007/TheViewFromHome.jpg"
 +++
 
 ![A view of a street in Guelph, with a girl riding a bicycle.](/photos/2007/TheViewFromHome.jpg "Zoooooooooomed right in.")

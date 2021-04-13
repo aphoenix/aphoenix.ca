@@ -4,7 +4,7 @@ date = 2007-06-20
 [taxonomies]
 albums = ["uog", "clocks", "architecture"]
 [extra]
-photo = "/photos/2007/OneThirty.jpg"
+photo = "../static/photos/2007/OneThirty.jpg"
 +++
 
 ![Rozanski Hall](/photos/2007/OneThirty.jpg "What time is it it's time for lunch")
