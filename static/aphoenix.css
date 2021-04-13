@@ -20,7 +20,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-html{font-size:16px;}
+html{font-size:16px;min-height:100vh;}
 body {
     line-height: 1.5;
     font-family:usual, sans-serif;
@@ -37,17 +37,17 @@ blockquote, q {
 
 
 :root {
-    --body-grad: radial-gradient(#321625, #1a1317);
-    --photo-hover: #ffe;
+    --body-grad: radial-gradient(#b6196d, #1a1317);
+    --photo-hover: #fff2eadd;
     --body: #ffffffee;
     --half-fade: #ffffff99;
     --full-fade: #ffffff11;
-    --content-bg: #00000022;
-    --logo: #cc5aa5;
-    --link: #45C6CC;
-    --link-hover: #88D1D5;
-    --link-visited: #AA55D9;
-    --accent: #CC6F64;
+    --content-bg: #000000aa;
+    --logo: #ffed00;
+    --link: #00ddff;
+    --link-hover: #00ff4d;
+    --link-visited: #a0cdff;
+    --accent: #ff99ff;
     --code-bg: #111;
     --code: #dfd;
 }
@@ -160,7 +160,7 @@ blockquote {
     padding: 1.5em 2em 0.5em ;
     margin: 1.5em 2em;
     position: relative;
-    background:var(--full-fade);
+    background:var(--content-bg);
 }
 blockquote:before {
     content: '\201C';
@@ -188,7 +188,7 @@ blockquote:after {
     margin:0 auto 2rem;
     max-width:48rem;
     background:var(--content-bg);
-    padding:1rem min(5vw, 3rem);
+    padding:2.3785rem min(5vw, 3rem);
 }
 .meta {
     font-size:0.8em;
@@ -236,7 +236,7 @@ footer {
 }
 .pagination > div a:hover {
     background:var(--body);
-    color:var(--accent);
+    color:var(--content-bg);
 }
 .pagination .previous {float:left;}
 .pagination .next {float:right;}
@@ -280,22 +280,21 @@ footer {
     clear:both;
 }
 
-
 .photo img {
     width: 22em;
     height: 15em;
     object-fit: cover;
+    margin:1em 0;
 }
-.photo:nth-child(2n-1) a {
-    margin: 1em 0 1em 1em;
-}
-.photo a {
-    opacity: 0.85;
-    margin: 1em 2em 1em 0;
-    display: inline-block;
-}
+
 .photo a:hover img {opacity:1;box-shadow:0 0 0.75em var(--photo-hover);}
 .photo {display:inline-block;}
+.photo a {
+    opacity: 0.85;
+    margin: 1em 1.666em 1em 0;
+    display: inline-block;
+}
+
 
 img {
     max-width:min(90vw, 48em);
@@ -307,6 +306,5 @@ img {
 .site-id {
     display:inline-block;
 }
-
 
 }
