@@ -1,5 +1,5 @@
 +++
-title = "Aphoenix.ca"
+title = "Home"
 description = "Andrew Phoenix is me and Aphoenix.ca is my website"
 paginate_by = 3
 template = "home.html"
