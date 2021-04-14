@@ -19,7 +19,12 @@ While I'm talking about Spice of Life, I've also tried and love the following fr
   
 I think I've had other things from them, and they've all been good. Tangent aside, here's the hot sauce that I made:
 
-![Hot Sauce Two](/photos/2021/HotSauceTwo.jpg "Three jars of hot sauce")
+{{ image(
+  img="/photos/2021/HotSauceTwo.jpg",
+  alt="Three jars of hot sauces",
+  title="Hot Sauce Two",
+  float="right"
+) }}
 
 This time the process was a bit more efficient:
 

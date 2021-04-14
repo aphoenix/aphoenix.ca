@@ -214,6 +214,7 @@ footer {
 .pagination {
     margin:4em 0 2em;
     text-align:center;
+    clear:both;
 }
 .pagination > div {
     display:inline-block;
@@ -281,7 +282,7 @@ footer {
 }
 
 .photo img {
-    width: 22em;
+    width: 20em;
     height: 15em;
     object-fit: cover;
     margin:1em 0;
@@ -294,11 +295,28 @@ footer {
     margin: 1em 1.666em 1em 0;
     display: inline-block;
 }
+.image {
+    text-align:right;
+}
+.image .source {
+    opacity:0.5;
+}
 
+.left {
+    float: left;
+    padding: 0 3rem 2rem 0;
+}
+.right {
+    float: right;
+    padding: 0 0 2rem 3rem;
+}
 
 img {
     max-width:min(90vw, 48em);
     height:auto;
+    padding: 1rem;
+    display:block;
+    background: var(--content-bg);
 }
 
 @media screen and (min-width:38em) {
