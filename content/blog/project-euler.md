@@ -13,4 +13,42 @@ Well, I loved it, and I searched for more similar problems, and I got to the fir
 
 I was thrilled! A minor modification to my fizzbuzz program and I was off and running. I've currently completed somewhere around 20... but I'll admit that I've skipped to the end am trying my hand at Problem 282, the dreaded Ackermann Function.
 
+
+```python
+import itertools
+import math
+import operator
+
+def ackermann(m, n):
+    """This prints out the ackermann number of (m,n) but it's not 
+    recommended to try doing more than 4,3."""
+    while m >= 4:
+        if n == 0:
+            n = 1
+        else:
+            n = ackermann(m, n - 1)
+        m -= 1
+    if m == 3:
+        return (1 << n + 3) - 3
+    elif m == 2:
+        return (n << 1) + 3
+    elif m == 1:
+        return n + 2
+    else:  # m == 0
+        return n + 1
+
+
+def ackermod(i, j, mod):
+    """A modulo Ackermann function"""
+    if i == 0:
+        return (j + 1) % mod
+    if i > 0:
+        if j == 0:
+            return ackermod(i - 1, j, mod)
+        if j > 0:
+            return ackermod(i - 1, ackermod(i, j - 1, mod), mod)
+
+```
+
+
 So - if you're a coder, why don't you try it out?
