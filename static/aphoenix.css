@@ -306,7 +306,7 @@ footer {
 }
 
 img {
-    max-width:min(90vw, 48em);
+    max-width:min(80vw, 48em);
     height:auto;
     padding:1rem;
     display:block;
