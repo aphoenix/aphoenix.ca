@@ -7,7 +7,7 @@ date = 2020-11-29
 
 # About
 
-<img style="float:right;margin:0 0 1em 1em;width:50%;" src="/andrew.svg" alt="A drawing of me"/>
+<img style="float:right;margin:0 0 1em 1em;width:50%;" src="/AndrewIcon.png" alt="A drawing of me"/>
 
 ## The Author
 
