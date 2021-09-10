@@ -4,16 +4,17 @@
     {% set width = 480 %}
 {% else %}
     {% set class = "feature" %}
-    {% set width = 736 %}
+    {% set width = 768 %}
 {% endif %}
+{% set image = resize_image(path=path, width=width, op='fit_width') %}
 <div class="image {{ class }}">
     <img
-            src="{{ resize_image(path=path, width=width, op='fit_width') }}"
-            alt="{{alt}}"
-            title="{{title}}"
+            src="{{ image.url }}"
+            alt="{{ alt }}"
+            title="{{ title }}"
     />
     <span class="source">
-        <a href="{{img}}">original</a>
+        <a href="{{ img }}">original</a>
     </span>
 </div>
 
