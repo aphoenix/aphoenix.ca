@@ -1,12 +1,11 @@
 +++
 title = "First Snow"
 date = 2006-11-16
+description = "Snow on grass, closeup"
 [taxonomies]
-albums = ["closeups", "winter", "foliage"]
+albums = ["closeups", "winter", "flora"]
 [extra]
-photo = "../static/photos/FirstSnow.jpg"
+photo = "/photos/FirstSnow.jpg"
 +++
-
-![snow on grass, closeup](/photos/FirstSnow.jpg "brr.")
 
 The first snowfall of the year, captured in closeup detail.

@@ -28,7 +28,7 @@
   </span>
 </div>
 
-{% if page.extra.photo and page.extra.alt %}
+{% if page.extra.photo %}
 
 {% set path = "../static" ~ page.extra.photo %}
 {% set class = "feature" %}
@@ -60,6 +60,8 @@
   <div class="newer">
     {% if page.later %}
     <a href="{{ page.later.permalink }}">← newer</a>
+    {% elif page.title_prev %}
+    <a href="{{ page.title_prev.permalink }}">Previous</a>
     {% else %}
     <span>no newer</span>
     {% endif %}
@@ -67,6 +69,8 @@
   <div class="older">
     {% if page.earlier %}
     <a href="{{ page.earlier.permalink }}">older →</a>
+    {% elif page.title_next %}
+    <a href="{{ page.title_next.permalink }}">Next</a>
     {% else %}
     <span>no older</span>
     {% endif %}

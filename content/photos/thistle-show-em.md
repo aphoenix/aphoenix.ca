@@ -1,8 +1,11 @@
 +++
 title = "Thistle Show ‘em"
 date = 2006-03-14
+description = "A Thistle"
+[taxonomies]
+albums = ["flora", "flowers"]
+[extra]
+photo = "/photos/ThistleShowEm.jpg"
 +++
-
-![A pair of thistles.  What can I say, they're probably my favourite flower!](/photos/ThistleShowEm.jpg)
 
 Thistles are some of the most beautiful flowers, and a good representation of a celt; nice to look at, but prickly and sometimes hard to deal with.

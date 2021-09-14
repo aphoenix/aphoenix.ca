@@ -4,10 +4,8 @@ date = 2006-11-13
 [taxonomies]
 albums = ["cars", "closeups"]
 [extra]
-photo = "../static/photos/StangsFrontEnd.jpg"
+photo = "/photos/StangsFrontEnd.jpg"
 +++
-
-![mustang's front end, little horse thing](/photos/StangsFrontEnd.jpg "my car")
 
 This is my car. Well, one small part of it. 
 

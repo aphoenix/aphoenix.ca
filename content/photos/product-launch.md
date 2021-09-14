@@ -1,12 +1,12 @@
 +++
 title = "Product Launch"
 date = 2019-07-31
+description = "mmmmm product launch"
 [taxonomies]
 albums = ["work", "beer"]
 [extra]
-photo = "../static/photos/2019/ProductLaunch.jpg"
+photo = "/photos/2019/ProductLaunch.jpg"
+alt = "beer on a shelf"
 +++
-
-![](/photos/2019/ProductLaunch.jpg "Mmmmmmm product launch")
 
 We were celebrating a successful major product launch at work with beer.

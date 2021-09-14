@@ -1,12 +1,12 @@
 +++
 title = "In The Lookout"
 date = 2020-08-10
+description = "Yarr Matey, me first love was the sea"
 [taxonomies]
-albums = ["water", "point of view"]
+albums = ["water", "perspective"]
 [extra]
-photo = "../static/photos/2020/InTheLookout.jpg"
+photo = "/photos/2020/InTheLookout.jpg"
+alt = "a view of outlet river"
 +++
-
-![Yaaarrrrrrrrr Matey](/photos/2020/InTheLookout.jpg "Yarr Matey, me first love was the sea")
 
 We rented a cottage which had a delightful lookout - this was the view.

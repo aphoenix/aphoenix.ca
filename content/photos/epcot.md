@@ -1,12 +1,11 @@
 +++
 title = "Epcot"
 date = 2019-05-12
+description = "The big ol' golf ball. Everyone takes this picture."
 [taxonomies]
 albums = ["disney", "vacations"]
 [extra]
-photo = "../static/photos/2019/Epcot.jpg"
+photo = "/photos/2019/Epcot.jpg"
 +++
-
-![](/photos/2019/Epcot.jpg "Everyone takes this picture")
 
 This is another Disney picture that literally everyone takes when they're walking past.

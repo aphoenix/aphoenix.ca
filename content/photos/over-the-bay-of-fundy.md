@@ -1,9 +1,13 @@
 +++
 title = "Over The Bay of Fundy"
 date = 2006-07-02
-+++
+description = "Looking down from the plane on the Bay of Fundy."
+[taxonomies]
+albums = ["aerial", "halifax", "water"]
+[extra]
+photo = "/photos/OverTheBayOfFundy.jpg"
 
-![Looking down from the plane on the Bay of Fundy.](/photos/OverTheBayOfFundy.jpg)
++++
 
 Looking down on that majestic body of water, the Bay of Fundy. What a great plane ride - so many more picture ops than on the way out!
 

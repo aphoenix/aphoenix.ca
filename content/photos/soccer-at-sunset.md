@@ -1,9 +1,12 @@
 +++
 title = "Soccer At Sunset"
 date = 2006-10-06
+description = "A bad black and white Sunset is the scene behind some young fellows playing soccer."
+[taxonomies]
+albums = ["bad photos", "black and white", "cityscapes"]
+[extra]
+photo = "/photos/SoccerAtSunset.jpg"
 +++
-
-![Sunset is the scene behind some young fellows playing soccer.](/photos/SoccerAtSunset.jpg "Clouds are my current photographic preoccupation.")
 
 This photo is one that I'm not sure of. I like it, but it feels a little like a wash. I liked it enough after I took it to mark it for my photoblog, though...
 

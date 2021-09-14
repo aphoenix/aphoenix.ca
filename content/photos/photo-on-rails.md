@@ -2,9 +2,9 @@
 title = "Photo On Rails"
 date = 2007-08-02
 [taxonomies]
-albums = ["trains", "point of view"]
+albums = ["trains", "perspective"]
 [extra]
-photo = "../static/photos/2007/PhotoOnRails.jpg"
+photo = "/photos/2007/PhotoOnRails.jpg"
 +++
 
 ![photo taken with camera sitting on the train tracks, showing gravel and greenery and tracks into the distance](/photos/2007/PhotoOnRails.jpg "no Ruby here.  Move along.")

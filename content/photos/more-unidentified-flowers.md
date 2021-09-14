@@ -1,12 +1,12 @@
 +++
 title = "More Unidentified Flowers"
 date = 2007-08-15
+description = "I believe this is a Common North American Strungus Plant."
 [taxonomies]
-albums = ["flowers"]
+albums = ["flowers", "flora"]
 [extra]
-photo = "../static/photos/2007/MoreUnidentifiedFlowers.jpg"
+photo = "/photos/2007/MoreUnidentifiedFlowers.jpg"
+alt = "A flower"
 +++
-
-![A red and yellow flower closeup.](/photos/2007/MoreUnidentifiedFlowers.jpg "I believe this is a Common North American Strungus Plant.")
 
 Yet another beautiful but not identifiable-by-me flower.

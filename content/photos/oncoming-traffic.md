@@ -1,8 +1,11 @@
 +++
 title = "Oncoming Traffic"
 date = 2006-09-08
+description = "A shot along the roadside just outside of Guelph"
+[taxonomies]
+albums = ["black and white", "landscapes", "cars", "perspective"]
+[extra]
+photo = "/photos/OncomingTraffic.jpg"
 +++
 
-![View of a hilly road from a height of about 18 inches](/photos/OncomingTraffic.jpg "Playing in traffic suddenly doesn't seem so dangerous.")
-
-Traffic driving slowly through the rolling hills of just-outside-Guelph.
+Traffic driving slowly through the rolling hills of just-outside-Guelph, taken relatively low to the ground.

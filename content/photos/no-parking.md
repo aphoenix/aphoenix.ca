@@ -1,12 +1,11 @@
 +++
 title = "No Parking!"
 date = 2007-11-14
+description = "No parking sign... in a forest?"
 [taxonomies]
-albums = ["foliage", "signs"]
+albums = ["fauna", "signs"]
 [extra]
-photo = "../static/photos/2007/niagara/NoParking.jpg"
+photo = "/photos/2007/niagara/NoParking.jpg"
 +++
-
-![No parking](/photos/2007/niagara/NoParking.jpg "I believe this is a Common North American Hiatus Plant with a no parking sign next to it.")
 
 I really liked this no parking sign surrounded by foliage.

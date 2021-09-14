@@ -1,8 +1,12 @@
 +++
 title = "He Sure Looks Happy"
 date = 2006-06-26
+description = "girl licky boy, boy happy"
+[taxonomies]
+albums = ["friends", "weddings", "black and white"]
+[extra]
+photo = "/photos/HeSureLooksHappy.jpg"
+alt = "A woman licking a man at a wedding"
 +++
-
-![girl licking boy.  boy happy.](/photos/HeSureLooksHappy.jpg)
 
 Well... doesn't he?

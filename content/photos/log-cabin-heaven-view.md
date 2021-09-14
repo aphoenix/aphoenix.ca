@@ -1,8 +1,12 @@
 +++
 title = "Log Cabin Heaven View"
 date = 2006-09-09
+description = "A well manicured lawn and trees"
+[taxonomies]
+albums = ["landscapes", "flora"]
+[extra]
+photo = "/photos/LogCabinHeavenView.jpg"
+alt = "View from the deck of log cabin heaven"
 +++
 
-![from the deck of log cabin heaven](/photos/LogCabinHeavenView.jpg "this is a very green photo")
-
-This is at [Log Cabin Heaven](http://www.logcabinheaven.com), which you should certainly check out. It's a beautiful and relaxing place with two very wonderful hosts.
+This is at *Log Cabin Heaven* (note: since closed), which you should certainly check out. It's a beautiful and relaxing place with two very wonderful hosts.

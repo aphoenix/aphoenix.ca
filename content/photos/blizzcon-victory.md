@@ -1,12 +1,12 @@
 +++
 title = "Blizzcon - Victory"
 date = 2019-11-09
+description = "Blizzcon: A room with a view!"
 [taxonomies]
-albums = ["interior", "point of view", "LA"]
+albums = ["interior", "perspective", "LA"]
 [extra]
-photo = "../static/photos/2019/BlizzconVictory.jpg"
+photo = "/photos/2019/BlizzconVictory.jpg"
+alt = "Front row view"
 +++
-
-![Blizzcon Victory](/photos/2019/BlizzconVictory.jpg "A room with a veiw")
 
 Last week I attended Blizzcon and had an MVP pass, which made for some great views from live events.
