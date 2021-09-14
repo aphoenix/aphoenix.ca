@@ -28,6 +28,25 @@
   </span>
 </div>
 
+{% if page.extra.photo and page.extra.alt %}
+
+{% set path = "../static" ~ page.extra.photo %}
+{% set class = "feature" %}
+{% set width = 768 %}
+{% set image = resize_image(path=path, width=width, op='fit_width') %}
+<div class="image {{ class }}">
+  <img
+          src="{{ image.url }}"
+          alt="{{ page.extra.alt }}"
+          title="{{ page.description }}"
+  />
+  <span class="source">
+        <a href="{{ page.extra.photo }}">original</a>
+    </span>
+</div>
+
+{% endif %}
+
 {{ page.content | safe }}
 
 

@@ -16,9 +16,9 @@ You may compliment the bride's half of the wedding party for how they look, and 
 
 Timing is important. You probably have a lot of things to say, but try to keep it to 3 minutes. I know that this sounds very brief, but it is an appropriate amount of time for a speech. If you must go longer, then absolutely no more than 5 minutes.
 
-About half of your speech will be about the groom, your brother. It is meant to make him feel good. Make it something that makes him feel good; even if you have a family dynamic of "busting each other's balls" (my family certainly does) avoid the temptation to do publicly in a speech.
+About half of your speech will be about the groom. It is meant to make him feel good. Make it something that makes him feel good; even if you have a family / friend dynamic of "busting each other's balls" (my family certainly does) avoid the temptation to do publicly in a speech.
 
-Humour is good, but it isn't necessary. If you are going to be funny, do not be funny at your brother's expense. This is a day to celebrate him; tell funny stories that build him up. No jokes about being drunk and doing stupid things. At my brother's wedding, I talked about our friendship, despite being 10 years difference in age, and how proud I was of him.
+Humour is good, but it isn't necessary. If you are going to be funny, do not be funny at the groom's expense. This is a day to celebrate him; tell funny stories that build him up. No jokes about being drunk and doing stupid things. At my brother's wedding, I talked about our friendship, despite being 10 years difference in age, and how proud I was of him.
 
 Talk at least briefly about love in general, and the relationship of the bride and groom specifically. It is the reason that everyone is gathered. It can be saccharine. It probably should be at least somewhat saccharine. This bit from Wedding Crashers is actually beautiful: "They say true love is the soul's recognition of it's counterpoint in another." That's the sort of thing that works at a wedding.
 
