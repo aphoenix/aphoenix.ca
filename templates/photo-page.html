@@ -37,7 +37,13 @@
 <div class="image {{ class }}">
   <img
           src="{{ image.url }}"
+          {% if page.extra.alt %}
           alt="{{ page.extra.alt }}"
+          {% elif page.description %}
+          alt="{{page.description}}"
+          {% else %}
+          alt="{{page.title}}"
+          {%endif%}
           title="{{ page.description }}"
   />
   <span class="source">
