@@ -1,6 +1,6 @@
 +++
 title = "Selfie 2021"
-date = 2020-09-09
+date = 2021-09-09
 description = "Hello. Is it me you're looking for?"
 [taxonomies]
 albums = ["selfies", "portraits"]
