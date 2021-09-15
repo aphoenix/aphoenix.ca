@@ -28,7 +28,7 @@
 {% macro photobit(page) %}
 {% if page.extra.photo %}
 {% set path = "../static" ~ page.extra.photo %}
-{% set image = resize_image(path=path, width=320, height=180, op='fit_width') %}
+{% set image = resize_image(path=path, width=320, height=180, op='fit_width', format='webp') %}
 <article class="photo ">
     <a href="{{page.permalink | safe}}">
         {% if page.extra.photo %}

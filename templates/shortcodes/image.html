@@ -6,7 +6,7 @@
     {% set class = "feature" %}
     {% set width = 768 %}
 {% endif %}
-{% set image = resize_image(path=path, width=width, op='fit_width') %}
+{% set image = resize_image(path=path, width=width, op='fit_width', format='webp') %}
 <div class="image {{ class }}">
     <img
             src="{{ image.url }}"

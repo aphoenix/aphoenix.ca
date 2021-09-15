@@ -33,7 +33,7 @@
 {% set path = "../static" ~ page.extra.photo %}
 {% set class = "feature" %}
 {% set width = 768 %}
-{% set image = resize_image(path=path, width=width, op='fit_width') %}
+{% set image = resize_image(path=path, width=width, op='fit_width', format='webp') %}
 <div class="image {{ class }}">
   <img
           src="{{ image.url }}"
