@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, viewport-fit=cover">
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="aphoenix.ca" />
+    <meta name="theme-color" content="#551837">
     <title>{%if section.title%}{{ section.title }} | {%endif %}{%if page.title%}{{ page.title }} | {%endif%}Aphoenix.ca</title>
     <meta name="og:title" content="{%if section.title%}{{ section.title }} |{%endif %} {%if page.title%}{{ page.title }} |{%endif%} Aphoenix.ca"/>
     <meta name="description" content="{%if section.description%}{{ section.description }}{%endif%} {%if page.description%}{{ page.description }}{%endif%}"/>
     <meta name="og:description" content="{%if section.description%}{{ section.description }}{%endif%} {%if page.description%}{{ page.description }}{%endif%}" />
     <link rel="stylesheet" href='{{ get_url(path="aphoenix.css", trailing_slash=false) }}' >
-    <link rel="stylesheet" href="https://use.typekit.net/qgy1lpu.css">
-
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
     {% block extra_head %}
     {% endblock extra_head %}
 </head>
