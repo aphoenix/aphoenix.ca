@@ -1,8 +1,8 @@
 +++
-
 title = "About"
 date = 2020-11-29
-
+description = "A bit of backstory about me, Andrew Phoenix"
+template = "page.html"
 +++
 
 # About

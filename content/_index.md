@@ -6,11 +6,8 @@ template = "home.html"
 path = "/"
 +++
 
-# A brief introduction
 
-I'm **Andrew Phoenix** - father of three, husband of one, coder, cook, musician, small business owner, game enthusiast. 
-These are my musings, photos, and other digital chattels.
- 
-Most of the writing here is from 2012 and earlier. I'm hoping to change that.  
-The retro 80s colour scheme is on purpose.
+<img style="float:right;margin: -2rem 0 0em 3em; width: 9rem;" src="/andrew.svg" alt="A drawing of me"/> I'm **Andrew Phoenix** - father of three, husband of one, coder, cook, musician, small business owner, game enthusiast. These are my musings, photos, and other digital chattels. The retro 80s colour scheme is on purpose, and the site looks way better in dark mode.
+
+
 
