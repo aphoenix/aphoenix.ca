@@ -189,7 +189,7 @@ nav ul li a:hover {color:var(--menu-hover);}
 }
 .crumbs {
     color:var(--body);
-    margin-bottom:1rem;
+    margin-bottom:0.75rem;
     padding:1rem 0;
     border-bottom:0.1em solid var(--accent);
 }
