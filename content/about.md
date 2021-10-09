@@ -5,8 +5,6 @@ description = "A bit of backstory about me, Andrew Phoenix"
 template = "page.html"
 +++
 
-# About
-
 <img style="float:right;margin:0 0 1em 1em;width:50%;" src="/andrew.svg" alt="A drawing of me"/>
 
 ## The Author
@@ -22,8 +20,6 @@ There are a lot of old writings here from 2005 - 2011. My areas of interest have
 * write a bit about my interests: music, business, coding, maths, photography etc.
 * have a place I can direct my mother to when she asks what I want for a gift
 * explain some things that I've purchased over the years and how that's worked out
-
-I plan to do a [5✭ Friday](/tags/5/) about once a month, which I think is a good start.
 
 ## Contact
 
