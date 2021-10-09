@@ -12,6 +12,8 @@ So, try this out, if you're of a mind.
 
 You should end up here (or thereabouts): [Sunny Skies](http://www.aphoenix.ca/sunny-skies-10/).
 
+<!-- more -->
+
 Two questions seem to immediately present themselves now:
 
 **How did I figure that out?** More importantly: **How did I get such a good pagerank?**

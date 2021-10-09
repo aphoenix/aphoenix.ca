@@ -3,7 +3,12 @@ title = "Milk Bags, Organic and Deposits"
 date = 2010-02-05
 +++
 
-[Kyle](http://kylemackie.wordpress.com), [Dawn](http://dawnwentzell.com/) and [certain others](http://pileofsticks.com/) were having a bit of discussion on the delivery of milk to people's houses in Ontario. The discussion basically centred around milk bags vs. glass milk jugs, but included discussions on "organic". It was interesting how dichotomous this discussion was.
+[Kyle](http://kylemackie.wordpress.com), [Dawn](http://dawnwentzell.com/) and [certain others](http://pileofsticks.com/) 
+were having a bit of discussion on the delivery of milk to people's houses in Ontario. The discussion basically centred 
+around milk bags vs. glass milk jugs, but included discussions on "organic". It was interesting how dichotomous this 
+discussion was.
+
+<!-- more -->
 
 **Milk Bags vs. Jugs Summary**
 

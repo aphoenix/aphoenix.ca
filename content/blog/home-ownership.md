@@ -3,7 +3,12 @@ title = "Home Ownership"
 date = 2007-08-23
 +++
 
-Well, we have moved into the house. For the most part, things are great - I still need to bring a whole bunch of my stuff from the apartment to the house (mostly books) and we need to really start _unpacking_. The entire living room is just _full_ of stuff. It is amazing how many _things_ one person (or in this case, three) can acquire. The house project status stands thusly:
+Well, we have moved into the house. For the most part, things are great - I still need to bring a whole bunch of my 
+stuff from the apartment to the house (mostly books) and we need to really start _unpacking_. The entire living room is
+just _full_ of stuff. It is amazing how many _things_ one person (or in this case, three) can acquire. The house 
+project status stands thusly:
+
+<!-- more -->
 
 - **Upstairs Bathroom**: Completely gutted and redone. Gorgeous new bathtub, toilet, vanity and sink installed over gorgeous Ana Slate tiles. Curved shower curtain installed with gorgeous curtain. New window. Fantastic One Sone fan (extraordinarily quiet) with a timer, and a dimmer for the lights. _To do_: finish priming one wall, paint the walls (a very light blue-grey) and the ceiling (white). Refinish door and trim.
 - **Master Bedroom**: Painted, most furniture in. Now wired for light fixture. _To do_: Install fixture, touch up paint. Actually decide where all furniture is going and unpack remaining clothes.
