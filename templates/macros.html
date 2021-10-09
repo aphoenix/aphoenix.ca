@@ -1,27 +1,32 @@
 {% macro blogbit(page) %}
 <article class="blog">
     <h3><a href="{{page.permalink | safe }}">{{page.title}}</a></h3>
-    <span class="spacer">•</span>
-    <span class="date">
-        <em>{{ page.date }}</em>
-    </span>
-    <span class="spacer">•</span>
-    <span class="tags">
+    <section class="meta">
+        <span class="date">
+            <em>{{ page.date }}</em>
+        </span>
+        <span class="spacer">•</span>
+        <span class="tags">
         {% if page.taxonomies.tags %}
             {% for tag in page.taxonomies.tags %}
                 <a href='{{ get_taxonomy_url(kind="tags", name=tag) }}'>{{ tag }}</a>
                 <span class="separator">,&nbsp;</span>
             {% endfor %}
         {% endif %}
-    </span>
-    {% if page.summary %}
-    {{ page.summary | safe }}
-    {% else %}
-    {{ page.content | truncate(length=450) | safe }}
-    {% endif %}
-    <p class="more">
-        <a href="{{page.permalink | safe}}">read →</a>
-    </p>
+        </span>
+    </section>
+    <section class="summary">
+        {% if page.summary %}
+        {{ page.summary | safe }}
+        {% else %}
+        {{ page.content | truncate(length=450) | safe }}
+        {% endif %}
+    </section>
+    <section class="more">
+        <p>
+            <a href="{{page.permalink | safe}}">read →</a>
+        </p>
+    </section>
 </article>
 {% endmacro blogbit %}
 
@@ -29,8 +34,8 @@
 {% if page.extra.photo %}
 {% set path = "../static" ~ page.extra.photo %}
 {% set image = resize_image(path=path, width=320, height=180, op='fit_width', format='webp') %}
-<article class="photo ">
-    <a href="{{page.permalink | safe}}">
+<article class="photo">
+    <a class="polaroid" href="{{page.permalink | safe}}">
         {% if page.extra.photo %}
         <img src="{{ image.url }}" alt="{{page.title}}"/>
         {% else %}

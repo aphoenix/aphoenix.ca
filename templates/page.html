@@ -1,15 +1,18 @@
 {% extends "base.html" %}
-
-This is page.html
-
 {% block content %}
-<section class="crumbs">
-    &raquo;&nbsp;
-    <a href="/">home</a>
-    &raquo;&nbsp;
-    <span class="current">{{ page.slug }}</span>
-</section>
-<div class="page">
-    {{ page.content | safe }}
+
+<div class="entry">
+    <section class="crumbs">
+        &raquo;&nbsp;
+        <a href="/">home</a>
+        &raquo;&nbsp;
+        <span class="current">{{ page.slug }}</span>
+        <h1>{{ page.title }}</h1>
+    </section>
+    <article class="page">
+        {{ page.content | safe }}
+    </article>
 </div>
+
 {% endblock content %}
+

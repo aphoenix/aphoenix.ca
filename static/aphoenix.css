@@ -33,9 +33,9 @@
     font-display:swap;font-style:normal;font-weight:400;
 }
 
-.tk-usual { font-family: "usual",sans-serif; }
-.tk-gastromond { font-family: "gastromond",sans-serif; }
-.tk-lft-etica-mono { font-family: "lft-etica-mono",sans-serif; }
+.tk-usual { font-family:"usual",sans-serif; }
+.tk-gastromond { font-family:"gastromond",sans-serif; }
+.tk-lft-etica-mono { font-family:"lft-etica-mono",sans-serif; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,7 +73,7 @@ blockquote, q {quotes:none;}
     --logo-hover:#ffff33;
     --accent:#ff00f2dd;
     --menu:#00ddff;
-    --menu-hover: #00F678;
+    --menu-hover:#00F678;
     --body:#ffffffee;
     --half-fade:#ffffff99;
     --full-fade:#ffffff11;
@@ -125,7 +125,7 @@ h3 {font-size:1.1em;}
 p strong {font-weight:600;}
 p em {font-style:italic;font-weight:400;}
 p i {font-style:italic;}
-a {color:var(--link);}
+a {color:var(--link);transition:0.3s}
 p b {font-weight:600;}
 a {text-decoration:none;}
 a:visited{color:var(--link-visited);}
@@ -143,7 +143,7 @@ ol {list-style-type:lower-roman;}
     background:transparent;
     display:block;
     margin:1rem auto 0;
-    width:24rem;
+    width:min(24rem, 98vw);
 }
 .site-id svg .st0 {
     fill:var(--logo);
@@ -175,7 +175,7 @@ nav ul li a, nav ul li a:visited {
     display:inline-block;
 }
 nav ul li.logo a {
-    display: block;
+    display:block;
 }
 
 nav ul li a:hover {color:var(--menu-hover);}
@@ -190,10 +190,8 @@ nav ul li a:hover {color:var(--menu-hover);}
 .crumbs {
     color:var(--body);
     margin-bottom:1rem;
-}
-.crumbs h2 {
-    display:inline;
-    font-size:1rem;
+    padding:1rem 0;
+    border-bottom:0.1em solid var(--accent);
 }
 blockquote {
     display:block;
@@ -226,17 +224,70 @@ blockquote:after {
     font-size:0.875em;
     color:var(--accent);
 }
+
 .content {
-    width:90vw;
-    margin:0 auto 2rem;
-    max-width:48rem;
-    background:var(--content-bg);
-    padding:2.3785rem min(5vw, 3rem);
+    width:95vw;
+    margin:0 auto 2.5vw;
+    max-width:54rem;
 }
+
+.content > * {
+    background:var(--content-bg);
+    padding:1.5rem min(5vw, 3rem);
+    margin:1rem 0 0;
+}
+.sections {
+    background:transparent;
+    display:block;
+    padding:0;
+}
+.sections > * {
+    background:var(--content-bg);
+    padding:0.5rem min(5vw, 3rem) 4rem;
+    display:inline-block;
+    margin:0.25rem 0 1.5rem;
+}
+.block {
+    position:relative;
+}
+.block h2 {
+    font-size:1.6rem;
+    border-bottom:0.1em solid var(--accent);
+}
+.block h2 {
+    text-align:right;
+}
+.block .blog {
+    border-bottom:0;
+}
+.block .afterword {
+    vertical-align:bottom;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:1rem;
+    text-align:center;
+}
+
+.content .inline-nav {
+    background:var(--full-fade);
+    color:var(--accent);
+    font-weight:700;
+}
+.content a.inline-nav:hover {
+    background:var(--accent);
+    color:var(--photo-bg);
+    text-decoration:underline;
+}
+.content .inline-nav:hover {
+    color:var(--photo-bg);
+}
+
 .meta {
     font-size:0.8em;
     color:var(--half-fade);
-    margin:-1em 0 2em;
+    margin:0em 0 1em;
 }
 .date {
     display:inline-block;
@@ -255,41 +306,21 @@ footer {
     padding:2em;
 }
 .pagination {
-    margin:4em 0 2em;
     text-align:center;
-    clear:both;
-}
-.pagination > div {
-    display:inline-block;
-    background:transparent;
+    margin:0;
     padding:0;
-    text-align:center;
+    display:flex;
 }
-.pagination > div a, .pagination > div a:visited, .pagination > div span {
-    color:var(--body);
+.pagination a, .pagination a:visited, .pagination span {
+    flex:50%;
     text-decoration:none;
-    border:0.1em solid var(--body);
-    display:inline-block;
     padding:1em 2em;
-    width:6em;
 }
-.pagination > div span {
-    cursor:default;
-    color:var(--half-fade);
-    border-color:var(--half-fade);
-}
-.pagination > div a:hover {
+.pagination a:hover {
     background:var(--body);
     color:var(--content-bg);
 }
-.pagination .previous {float:left;}
-.pagination .next {float:right;}
-.pagination:after {
-    display:block;
-    content:' ';
-    clear:both;
-}
-.blog h3, .blog h3 + span, .blog h3 + span + p {
+.blog h3 + span, .blog h3 + span + p {
     display:inline;
 }
 .blog .spacer {
@@ -324,19 +355,32 @@ footer {
     clear:both;
 }
 
+.photo {
+    width:85vw;
+}
 .photo img {
-    width:20em;
-    height:15em;
+    width:80vw;
+    height:auto;
     object-fit:cover;
-    margin:1em 0;
+}
+.photo a.polaroid:hover img {
+    opacity:1;
+    box-shadow:0 0 0.75em var(--photo-hover);
+}
+.photo {display:inline-block;}
+.photo a.polaroid {
+    opacity:0.85;
+    margin:0.5rem 0;
+    display:inline-block;
+}
+.photo .polaroid {
+    margin:0;
 }
 
-.photo a:hover img {opacity:1;box-shadow:0 0 0.75em var(--photo-hover);}
-.photo {display:inline-block;}
-.photo a {
-    opacity:0.85;
-    margin:1em 1.666em 1em 0;
-    display:inline-block;
+.polaroid img {
+    padding:2.5vw;
+    background:var(--photo-bg);
+    border-radius:1rem;
 }
 
 .image {
@@ -359,8 +403,65 @@ img {
     height:auto;
     display:block;
 }
-a img {
-    padding:1rem;
-    background:var(--photo-bg);
-    border-radius:2px;
+.list {
+    display:flex;
+    flex-wrap:wrap;
 }
+.list > .photo {
+    width:85vw;
+}
+
+/*/ 27.5em // 440px /*/
+@media screen and (min-width:27.5em) {
+.crumbs h1 {
+    display:inline-block;
+    font-size:1.2rem;
+    float:right;
+    padding:0;
+    margin:0;
+    position:relative;
+    top:-0.5rem;
+}
+.crumbs::after {
+    display:block;
+    clear:both;
+}
+
+
+/*/ end /*/
+}
+/*/ end 27.5em /*/
+
+/*/ 57.5em // 920px /*/
+@media screen and (min-width:57.5em) {
+.sections{
+    display:flex;
+}
+
+.list > .photo {
+    width:auto;
+    margin:1rem;
+}
+.sections > * {
+    padding:1rem 2rem 3rem;
+}
+.sections > *:first-child {
+    margin:0 0.5rem 0 0;
+}
+.sections > *:last-child {
+    margin:0 0 0 0.5rem;
+}
+
+.photo {
+    width:auto;
+    margin-bottom:2rem;
+}
+.photo img {
+    width:20em;
+    height:15em;
+    padding:1rem;
+}
+
+/*/ end */
+}
+/*/ end 57.5em /*/

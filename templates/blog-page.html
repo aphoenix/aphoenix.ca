@@ -1,51 +1,40 @@
 {% extends "base.html" %}
-
 {% block content %}
-<section class="crumbs">
-  &raquo;&nbsp;
-  <a href="/">home</a>
-  &raquo;&nbsp;
-  <a href="/blog">blog</a>
-  &raquo;&nbsp;
-  {{ page.slug }}
-</section>
-<h1 class="title">
-  {{ page.title }}
-</h1>
-<div class="meta">
-  Posted <strong>{{ page.date }}</strong></em>
-  <span class="tags">
-    Tags:
-    {% if page.taxonomies.tags %}
-      {% for tag in page.taxonomies.tags %}
-      <a href='{{ get_taxonomy_url(kind="tags", name=tag) }}'>{{ tag }}</a>
-      <span class="separator">,&nbsp;</span>
-      {% endfor %}
-    {% else %}
-    None
-    {% endif %}
-  </span>
+<div class="entry">
+  <section class="crumbs">
+    &raquo;&nbsp;<a href="/">home</a>
+    &raquo;&nbsp;<a href="/blog">blog</a>
+    &raquo;&nbsp;{{ page.slug }}
+    <h1 class="title">
+      {{ page.title }}
+    </h1>
+  </section>
+  <div class="meta">
+    Posted <strong>{{ page.date }}</strong></em>
+    <span class="tags">
+      Tags:
+      {% if page.taxonomies.tags %}
+        {% for tag in page.taxonomies.tags %}
+        <a href='{{ get_taxonomy_url(kind="tags", name=tag) }}'>{{ tag }}</a>
+        <span class="separator">,&nbsp;</span>
+        {% endfor %}
+      {% else %}
+      None
+      {% endif %}
+    </span>
+  </div>
+  {{ page.content | safe }}
 </div>
-
-{{ page.content | safe }}
-
-
 <section class="pagination">
-  <div class="newer">
-    {% if page.later %}
-    <a href="{{ page.later.permalink }}">← newer</a>
-    {% else %}
-    <span>no newer</span>
-    {% endif %}
-  </div>
-  <div class="older">
-    {% if page.earlier %}
-    <a href="{{ page.earlier.permalink }}">older →</a>
-    {% else %}
-    <span>no older</span>
-    {% endif %}
-  </div>
+  {% if page.later %}
+  <a href="{{ page.later.permalink }}" class="inline-nav">← newer</a>
+  {% else %}
+  <a href="/" class="inline-nav">← home</a>
+  {% endif %}
+  {% if page.earlier %}
+  <a href="{{ page.earlier.permalink }}" class="inline-nav">older →</a>
+  {% else %}
+  <a href="/photos/" class="inline-nav">photos →</a>
+  {% endif %}
 </section>
-
-
 {% endblock content %}

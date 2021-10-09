@@ -4,16 +4,25 @@
 {{page.title}}
 {% endblock title %}
 {% block content %}
-<div class="blogs">
-    {% set blog = get_section(path="blog/_index.md") %}
-    {% for page in blog.pages | slice(end=3) %}
-    {{ macros::blogbit(page=page) }}
-    {% endfor %}
+<div class="description">
+    {{ section.content | safe }}
 </div>
-<div class="photos">
-    {% set photos = get_section(path="photos/_index.md") %}
-    {% for page in photos.pages | slice(end=2) %}
-    {{ macros::photobit(page=page) }}
-    {% endfor %}
+<div class="sections">
+    <div class="block">
+        <h2>from <a href="/blog/">the blog</a></h2>
+        {% set blog = get_section(path="blog/_index.md") %}
+        {% for page in blog.pages | slice(end=2) %}
+        {{ macros::blogbit(page=page) }}
+        {% endfor %}
+        <a class="afterword inline-nav" href="/blog/" class="button">read the blog →</a>
+    </div>
+    <div class="block">
+        <h2>from <a href="/photos/">the photo album</a></h2>
+        {% set photos = get_section(path="photos/_index.md") %}
+        {% for page in photos.pages | slice(end=2) %}
+        {{ macros::photobit(page=page) }}
+        {% endfor %}
+        <a class="afterword inline-nav" href="/photos/" class="button">see the photo album →</a>
+    </div>
 </div>
 {% endblock content %}

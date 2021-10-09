@@ -1,33 +1,29 @@
 {% extends "base.html" %}
 {% import "macros.html" as macros %}
-
 {% block content %}
-<section class="crumbs">
-  &raquo;&nbsp;
-  <a href="/">home</a>
-  &raquo;&nbsp;
-  <span class="current">photos</span>
-</section>
-
-{% for page in paginator.pages %}
-{{ macros::photobit(page=page) }}
-{% endfor %}
+<div class="listing">
+  <section class="crumbs">
+    &raquo;&nbsp;<a href="/">home</a>
+    &raquo;&nbsp;<span class="current">photos</span>
+    <h1>the photo album</h1>
+  </section>
+  <section class="list">
+  {% for page in paginator.pages %}
+  {{ macros::photobit(page=page) }}
+  {% endfor %}
+  </section>
+</div>
 
 <section class="pagination">
-  <div class="newer">
-    {% if paginator.previous %}
-    <a href="{{ paginator.previous }}">← newer</a>
-    {% else %}
-    <span>no newer</span>
-    {% endif %}
-  </div>
-  <div class="older">
-    {% if paginator.next %}
-    <a href="{{ paginator.next }}">older →</i></a>
-    {% else %}
-    <span>no older</span>
-    {% endif %}
-  </div>
+  {% if paginator.previous %}
+  <a href="{{ paginator.previous }}" class="inline-nav">← newer</a>
+  {% else %}
+  <a href="/" class="inline-nav">← home</a>
+  {% endif %}
+  {% if paginator.next %}
+  <a href="{{ paginator.next }}" class="inline-nav">older →</a>
+  {% else %}
+  <a href="/blog/" class="inline-nav">blog →</a>
+  {% endif %}
 </section>
-
 {% endblock content %}
