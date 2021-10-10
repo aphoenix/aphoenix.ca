@@ -83,6 +83,7 @@ blockquote, q {quotes:none;}
     --link:#00ddff;
     --link-hover:#00F678;
     --link-visited:#a0cdff;
+    --footer:#ffffffcc;
 }
 /* Light Theme */
 @media (prefers-color-scheme:light) {
@@ -91,7 +92,7 @@ blockquote, q {quotes:none;}
         --accent:#b6196d;
         --half-fade:#11111199;
         --full-fade:#11111133;
-        --photo-bg:#88226622;
+        --photo-bg:#ffedfddf;
         --photo-hover:#222b45aa;
         --content-bg:#ffffffdd;
         --link:#006e80;
@@ -304,6 +305,11 @@ footer {
     background:var(--full-fade);
     font-size:0.8em;
     padding:2em;
+}
+footer p {
+    color:var(--footer);
+    font-weight: 700;
+    font-size: 0.7rem;
 }
 .pagination {
     text-align:center;
