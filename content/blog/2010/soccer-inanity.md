@@ -15,25 +15,13 @@ This is pretty backwards. It's not how the real world works. It's wrong on many 
 
 First, let's find a better way to define a blowout. A 5-goal lead isn't necessarily insurmountable. If the score is 10 - 5, it's clear that both teams have firepower, and the game could still go either way. Obviously there's got to be some kind of limitation on how many goals the losing team is scoring. So, let's say that that any time there's a 5+n/2 goal differential, where n is the number of goals the losing team has, it's a blowout. So blowouts happen at these scores:
 
-Loser
+|Loser|Winner|
+|-----|------|
+| 0   |  5   |
+| 1   |  6   |
+| 2   |  8   |
+| 3   |  9   |
 
-Winner
-
-0
-
-5
-
-1
-
-6
-
-2
-
-8
-
-3
-
-9
 
 Basically, it means that if you have a bit of firepower on your losing team, you can put off a blowout.
 

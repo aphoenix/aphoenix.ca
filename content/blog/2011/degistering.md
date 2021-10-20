@@ -7,16 +7,19 @@ I had a "fun" time figuring out how to deregister parent theme widgets in Wordpr
 
 This made deregistering widget areas pretty easy. In twentyten (something I child theme from a fair bit), the widgets are added on line 373 with code that looks like this:
 
+```php
 function twentyten\_widgets\_init() {   
   // Area 1, located at the top of the sidebar.                                                                    
     register\_sidebar( array(                                                                                         
     'name' => \_\_( 'Primary Widget Area', 'twentyten' ),                                                          
     'id' => 'primary-widget-area',
    // and so on
+```
  
 
 So, you write an unregister function in your child theme's functions.php that looks something like this:
 
+```php
 function my\_unregister\_sidebars() {                                                                                  
     unregister\_sidebar('primary-widget-area');                                                                       
     unregister\_sidebar('secondary-widget-area');                                                                     
@@ -25,11 +28,14 @@ function my\_unregister\_sidebars() {
     unregister\_sidebar('third-footer-widget-area');                                                                  
     unregister\_sidebar('fourth-footer-widget-area');                                                                 
 } 
+```
 
 Then you just call that in the widgets init hook, but give it a later priority:
 
-  add\_action( 'widgets\_init', 'my\_unregister\_sidebars', 11);                                                           
-  add\_action( 'widgets\_init', 'my\_widgets\_init',12);
+```php
+add\_action( 'widgets\_init', 'my\_unregister\_sidebars', 11);                                                           
+add\_action( 'widgets\_init', 'my\_widgets\_init',12);
+```
 
 Google wasn't super helpful for me until after I had figured out the solution to the problem. So, if you need to unregister widgets in a child theme, this is how to do it.
 

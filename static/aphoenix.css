@@ -84,6 +84,10 @@ blockquote, q {quotes:none;}
     --link-hover:#00F678;
     --link-visited:#a0cdff;
     --footer:#ffffffcc;
+    --code-bg:#000;
+    --table-bg-main:#00000099;
+    --table-bg-stripe:#00000055;
+    --table-bg-head:#63193f;
 }
 /* Light Theme */
 @media (prefers-color-scheme:light) {
@@ -98,6 +102,9 @@ blockquote, q {quotes:none;}
         --link:#006e80;
         --link-hover:#008026;
         --link-visited:#560683;
+        --table-bg-main: #dd99ff33;
+        --table-bg-stripe: #dd99ff55;
+        --table-bg-head: #dd99ff99;
     }
 }
 
@@ -108,9 +115,6 @@ body {
 
 h1, h2, h3, p, ul, ol {
     color:var(--body);
-}
-pre {
-    margin:0.5em 0;
 }
 h1,h2,h3 {
     font-family:gastromond, serif;
@@ -296,9 +300,13 @@ blockquote:after {
 }
 code {
     font-family:lft-etica-mono, monospace;
+    display:inline-block;
+    width:100%;
 }
-
-pre {padding:1em 2em;}
+pre {
+    padding:1em 2em;
+    background:var(--code-bg);
+}
 .separator:last-child {display:none;}
 footer {
     text-align:center;
@@ -343,6 +351,30 @@ footer p {
     text-align:right;
 }
 
+pre {
+    padding: 1rem;
+    overflow: auto;
+}
+
+pre[data-linenos] {
+  padding: 1rem 0;
+}
+pre table td {
+    padding: 0;
+}
+pre table td:nth-of-type(1) {
+   text-align: center;
+   user-select: none;
+}
+pre mark {
+    display: block;
+    background-color: rgba(254, 252, 232, 0.9);
+}
+pre table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 @media screen and (max-width:30em) {
 .pagination > div a, .pagination > div a:visited, .pagination > div span {
     width:72vw;
@@ -359,6 +391,56 @@ footer p {
     content:' ';
     display:block;
     clear:both;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+
+/* Tables */
+table {
+    width:100%;
+}
+caption {
+    padding: 0.5rem 0;
+}
+
+thead th {
+    font-weight: 400;
+    background: var(--table-bg-head);
+}
+
+tr {
+    background: var(--table-bg-main);
+    border-bottom: 1px solid var(--body);
+    margin-bottom: 0.5rem;
+}
+
+tr:nth-child(even) {
+    background: var(--table-bg-stripe);
+}
+
+th, td {
+    text-align: left;
+    padding: 1.25rem;
+    color:var(--body)
+}
+
+tfoot tr {
+    background: none;
+}
+
+tfoot td {
+    padding: 1rem 0.25rem;
+    font-size: 0.8em;
+    font-style: italic;
+    color: var(--body);
 }
 
 .photo {
