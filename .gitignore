@@ -11,6 +11,9 @@
 *.iws
 out/
 .idea_modules/
+.DS_Store
+*/.DS_Store
+
 
 ### Vim ###
 # Swap
