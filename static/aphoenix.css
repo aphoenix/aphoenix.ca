@@ -350,7 +350,6 @@ footer p {
 .more {
     text-align:right;
 }
-
 pre {
     padding: 1rem;
     overflow: auto;
@@ -501,6 +500,7 @@ img {
 
 /*/ 27.5em // 440px /*/
 @media screen and (min-width:27.5em) {
+
 .crumbs h1 {
     display:inline-block;
     font-size:1.2rem;
