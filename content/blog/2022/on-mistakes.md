@@ -13,7 +13,7 @@ the time there wasn't). I was doing something with our little service and hit so
 remember the specifics of it anymore, but it required changing a setting that I wasn't particularly comfortable doing 
 without running it by someone, so I went to a different department and asked the senior developer there what he thought. 
 He was pretty busy and didn't think that our project was of particular importance, so he said, "Do whatever the forum 
-your on tells you to do, and leave me alone."
+you're on tells you to do, and leave me alone."
 
 So I made a couple of server configuration changes, because that's what I was told to do.
 
