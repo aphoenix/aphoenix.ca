@@ -28,7 +28,7 @@ I think I've had other things from them, and they've all been good. Tangent asid
 
 This time the process was a bit more efficient:
 
-1. Obtain Jalepenos and Cucumbers
+1. Obtain Jalapeños and Cucumbers
 2. Cut off the steams, and the terminus of the pepper.
 3. Cut up the peppers and the cukes into relatively small parts.
 4. Put in **properly sized wide mouth jars**, and add brine.
